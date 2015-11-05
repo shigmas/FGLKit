@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9382F48F180723BE00291775 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9382F490180723BE00291775 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				9382F4951807240700291775 /* ShellScript */,
+			);
+			dependencies = (
+				9382F494180723CA00291775 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9343552F1986F13E00043934 /* FGLKPrim_Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343552D1986F13E00043934 /* FGLKPrim_Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9343553F19904A7900043934 /* FGLKScreenSpaceEnabledPrim.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343553D19904A7900043934 /* FGLKScreenSpaceEnabledPrim.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9343554019904A7900043934 /* FGLKScreenSpaceEnabledPrim.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343553E19904A7900043934 /* FGLKScreenSpaceEnabledPrim.m */; };
+		936E6260185EDDC000AE6B33 /* FGLKMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 936E625E185EDDC000AE6B33 /* FGLKMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		936E6261185EDDC000AE6B33 /* FGLKMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 936E625F185EDDC000AE6B33 /* FGLKMath.m */; };
+		9373D6141A9BBDD300E81195 /* FFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9373D6131A9BBDD300E81195 /* FFKit.framework */; };
+		9382F42B1807100800291775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9382F42A1807100800291775 /* Foundation.framework */; };
+		9382F4391807100800291775 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9382F4381807100800291775 /* XCTest.framework */; };
+		9382F43A1807100800291775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9382F42A1807100800291775 /* Foundation.framework */; };
+		9382F43C1807100800291775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9382F43B1807100800291775 /* UIKit.framework */; };
+		9382F43F1807100800291775 /* libFGLKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9382F4271807100800291775 /* libFGLKit.a */; };
+		9382F4451807100800291775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9382F4431807100800291775 /* InfoPlist.strings */; };
+		9382F46F1807124200291775 /* FGLKCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F4521807124200291775 /* FGLKCamera.m */; };
+		9382F4701807124200291775 /* FGLKFaceVertices.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F4541807124200291775 /* FGLKFaceVertices.m */; };
+		9382F4711807124200291775 /* FGLKFrustum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F4561807124200291775 /* FGLKFrustum.m */; };
+		9382F4721807124200291775 /* FGLKObjParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F4591807124200291775 /* FGLKObjParser.m */; };
+		9382F4731807124200291775 /* FGLKParseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F45B1807124200291775 /* FGLKParseObject.m */; };
+		9382F4741807124200291775 /* FGLKPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F45D1807124200291775 /* FGLKPlane.m */; };
+		9382F4751807124200291775 /* FGLKPrim.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F4601807124200291775 /* FGLKPrim.m */; };
+		9382F4761807124200291775 /* FGLKProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F4631807124200291775 /* FGLKProgram.m */; };
+		9382F4771807124200291775 /* FGLKSpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F4661807124200291775 /* FGLKSpline.m */; };
+		9382F4781807124200291775 /* FGLKSpline2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F4681807124200291775 /* FGLKSpline2.m */; };
+		9382F4791807124200291775 /* FGLKSpline3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F46A1807124200291775 /* FGLKSpline3.m */; };
+		9382F47A1807124200291775 /* FGLKTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F46C1807124200291775 /* FGLKTypes.m */; };
+		9382F47B1807124200291775 /* FGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F46E1807124200291775 /* FGLKVertexAttribArrayBuffer.m */; };
+		9382F47D1807128000291775 /* FGLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F4501807123100291775 /* FGLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F47E1807129A00291775 /* FGLKCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F4511807124200291775 /* FGLKCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F47F1807129A00291775 /* FGLKFaceVertices.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F4531807124200291775 /* FGLKFaceVertices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F4801807129A00291775 /* FGLKFrustum.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F4551807124200291775 /* FGLKFrustum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F4821807129A00291775 /* FGLKObjParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F4581807124200291775 /* FGLKObjParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F4831807129A00291775 /* FGLKParseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F45A1807124200291775 /* FGLKParseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F4841807129A00291775 /* FGLKPlane.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F45C1807124200291775 /* FGLKPlane.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F4851807129A00291775 /* FGLKPointSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F45E1807124200291775 /* FGLKPointSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F4861807129A00291775 /* FGLKPrim.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F45F1807124200291775 /* FGLKPrim.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F4871807129A00291775 /* FGLKPrimContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F4611807124200291775 /* FGLKPrimContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F4881807129A00291775 /* FGLKProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F4621807124200291775 /* FGLKProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F4891807129A00291775 /* FGLKSpline.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F4651807124200291775 /* FGLKSpline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F48A1807129A00291775 /* FGLKSpline2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F4671807124200291775 /* FGLKSpline2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F48B1807129A00291775 /* FGLKSpline3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F4691807124200291775 /* FGLKSpline3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F48C1807129A00291775 /* FGLKTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F46B1807124200291775 /* FGLKTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9382F48D1807129A00291775 /* FGLKVertexAttribArrayBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382F46D1807124200291775 /* FGLKVertexAttribArrayBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9397667D1B225CDE0071F327 /* FGLKTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9397667B1B225CDE0071F327 /* FGLKTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9397667E1B225CDE0071F327 /* FGLKTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397667C1B225CDE0071F327 /* FGLKTransform.m */; };
+		939766811B23B2C00071F327 /* FGLKBounce.h in Headers */ = {isa = PBXBuildFile; fileRef = 9397667F1B23B2C00071F327 /* FGLKBounce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		939766821B23B2C00071F327 /* FGLKBounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 939766801B23B2C00071F327 /* FGLKBounce.m */; };
+		939766B51B274A450071F327 /* FGLKitMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 939766B41B274A450071F327 /* FGLKitMathTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9382F43D1807100800291775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9382F41F1807100800291775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9382F4261807100800291775;
+			remoteInfo = FGLKit;
+		};
+		9382F493180723CA00291775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9382F41F1807100800291775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9382F4261807100800291775;
+			remoteInfo = FGLKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9382F4251807100800291775 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9343552D1986F13E00043934 /* FGLKPrim_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKPrim_Protected.h; sourceTree = "<group>"; };
+		9343553D19904A7900043934 /* FGLKScreenSpaceEnabledPrim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKScreenSpaceEnabledPrim.h; sourceTree = "<group>"; };
+		9343553E19904A7900043934 /* FGLKScreenSpaceEnabledPrim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKScreenSpaceEnabledPrim.m; sourceTree = "<group>"; };
+		936E625E185EDDC000AE6B33 /* FGLKMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKMath.h; sourceTree = "<group>"; };
+		936E625F185EDDC000AE6B33 /* FGLKMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKMath.m; sourceTree = "<group>"; };
+		9373D6131A9BBDD300E81195 /* FFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FFKit.framework; path = ../../../../../Library/dist/FFKit.framework; sourceTree = "<group>"; };
+		9382F4271807100800291775 /* libFGLKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFGLKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9382F42A1807100800291775 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9382F42E1807100800291775 /* FGLKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FGLKit-Prefix.pch"; sourceTree = "<group>"; };
+		9382F4371807100800291775 /* FGLKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGLKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9382F4381807100800291775 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9382F43B1807100800291775 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9382F4421807100800291775 /* FGLKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FGLKitTests-Info.plist"; sourceTree = "<group>"; };
+		9382F4441807100800291775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9382F4501807123100291775 /* FGLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKit.h; sourceTree = "<group>"; };
+		9382F4511807124200291775 /* FGLKCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKCamera.h; sourceTree = "<group>"; };
+		9382F4521807124200291775 /* FGLKCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKCamera.m; sourceTree = "<group>"; };
+		9382F4531807124200291775 /* FGLKFaceVertices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKFaceVertices.h; sourceTree = "<group>"; };
+		9382F4541807124200291775 /* FGLKFaceVertices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKFaceVertices.m; sourceTree = "<group>"; };
+		9382F4551807124200291775 /* FGLKFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKFrustum.h; sourceTree = "<group>"; };
+		9382F4561807124200291775 /* FGLKFrustum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKFrustum.m; sourceTree = "<group>"; };
+		9382F4581807124200291775 /* FGLKObjParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKObjParser.h; sourceTree = "<group>"; };
+		9382F4591807124200291775 /* FGLKObjParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKObjParser.m; sourceTree = "<group>"; };
+		9382F45A1807124200291775 /* FGLKParseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKParseObject.h; sourceTree = "<group>"; };
+		9382F45B1807124200291775 /* FGLKParseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKParseObject.m; sourceTree = "<group>"; };
+		9382F45C1807124200291775 /* FGLKPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKPlane.h; sourceTree = "<group>"; };
+		9382F45D1807124200291775 /* FGLKPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKPlane.m; sourceTree = "<group>"; };
+		9382F45E1807124200291775 /* FGLKPointSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKPointSource.h; sourceTree = "<group>"; };
+		9382F45F1807124200291775 /* FGLKPrim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKPrim.h; sourceTree = "<group>"; };
+		9382F4601807124200291775 /* FGLKPrim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKPrim.m; sourceTree = "<group>"; };
+		9382F4611807124200291775 /* FGLKPrimContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKPrimContainer.h; sourceTree = "<group>"; };
+		9382F4621807124200291775 /* FGLKProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKProgram.h; sourceTree = "<group>"; };
+		9382F4631807124200291775 /* FGLKProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKProgram.m; sourceTree = "<group>"; };
+		9382F4651807124200291775 /* FGLKSpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKSpline.h; sourceTree = "<group>"; };
+		9382F4661807124200291775 /* FGLKSpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKSpline.m; sourceTree = "<group>"; };
+		9382F4671807124200291775 /* FGLKSpline2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKSpline2.h; sourceTree = "<group>"; };
+		9382F4681807124200291775 /* FGLKSpline2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKSpline2.m; sourceTree = "<group>"; };
+		9382F4691807124200291775 /* FGLKSpline3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKSpline3.h; sourceTree = "<group>"; };
+		9382F46A1807124200291775 /* FGLKSpline3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKSpline3.m; sourceTree = "<group>"; };
+		9382F46B1807124200291775 /* FGLKTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKTypes.h; sourceTree = "<group>"; };
+		9382F46C1807124200291775 /* FGLKTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKTypes.m; sourceTree = "<group>"; };
+		9382F46D1807124200291775 /* FGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		9382F46E1807124200291775 /* FGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		9397667B1B225CDE0071F327 /* FGLKTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKTransform.h; sourceTree = "<group>"; };
+		9397667C1B225CDE0071F327 /* FGLKTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKTransform.m; sourceTree = "<group>"; };
+		9397667F1B23B2C00071F327 /* FGLKBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLKBounce.h; sourceTree = "<group>"; };
+		939766801B23B2C00071F327 /* FGLKBounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKBounce.m; sourceTree = "<group>"; };
+		939766B41B274A450071F327 /* FGLKitMathTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLKitMathTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9382F4241807100800291775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9382F42B1807100800291775 /* Foundation.framework in Frameworks */,
+				9373D6141A9BBDD300E81195 /* FFKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9382F4341807100800291775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9382F4391807100800291775 /* XCTest.framework in Frameworks */,
+				9382F43C1807100800291775 /* UIKit.framework in Frameworks */,
+				9382F43F1807100800291775 /* libFGLKit.a in Frameworks */,
+				9382F43A1807100800291775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9382F41E1807100800291775 = {
+			isa = PBXGroup;
+			children = (
+				9382F4501807123100291775 /* FGLKit.h */,
+				9382F42C1807100800291775 /* FGLKit */,
+				9382F4401807100800291775 /* FGLKitTests */,
+				9382F4291807100800291775 /* Frameworks */,
+				9382F4281807100800291775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9382F4281807100800291775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9382F4271807100800291775 /* libFGLKit.a */,
+				9382F4371807100800291775 /* FGLKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9382F4291807100800291775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9373D6131A9BBDD300E81195 /* FFKit.framework */,
+				9382F42A1807100800291775 /* Foundation.framework */,
+				9382F4381807100800291775 /* XCTest.framework */,
+				9382F43B1807100800291775 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9382F42C1807100800291775 /* FGLKit */ = {
+			isa = PBXGroup;
+			children = (
+				93E08625195B637E005EBE95 /* noarch */,
+				9382F4531807124200291775 /* FGLKFaceVertices.h */,
+				9382F4541807124200291775 /* FGLKFaceVertices.m */,
+				9382F45F1807124200291775 /* FGLKPrim.h */,
+				9382F4601807124200291775 /* FGLKPrim.m */,
+				9343552D1986F13E00043934 /* FGLKPrim_Protected.h */,
+				9343553D19904A7900043934 /* FGLKScreenSpaceEnabledPrim.h */,
+				9343553E19904A7900043934 /* FGLKScreenSpaceEnabledPrim.m */,
+				9382F4611807124200291775 /* FGLKPrimContainer.h */,
+				9382F4621807124200291775 /* FGLKProgram.h */,
+				9382F4631807124200291775 /* FGLKProgram.m */,
+				9382F46B1807124200291775 /* FGLKTypes.h */,
+				9382F46C1807124200291775 /* FGLKTypes.m */,
+				9382F46D1807124200291775 /* FGLKVertexAttribArrayBuffer.h */,
+				9382F46E1807124200291775 /* FGLKVertexAttribArrayBuffer.m */,
+				9382F42D1807100800291775 /* Supporting Files */,
+			);
+			path = FGLKit;
+			sourceTree = "<group>";
+		};
+		9382F42D1807100800291775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9382F42E1807100800291775 /* FGLKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9382F4401807100800291775 /* FGLKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				9382F4411807100800291775 /* Supporting Files */,
+				939766B41B274A450071F327 /* FGLKitMathTests.m */,
+			);
+			path = FGLKitTests;
+			sourceTree = "<group>";
+		};
+		9382F4411807100800291775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9382F4421807100800291775 /* FGLKitTests-Info.plist */,
+				9382F4431807100800291775 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93E08625195B637E005EBE95 /* noarch */ = {
+			isa = PBXGroup;
+			children = (
+				9397667F1B23B2C00071F327 /* FGLKBounce.h */,
+				939766801B23B2C00071F327 /* FGLKBounce.m */,
+				9382F4511807124200291775 /* FGLKCamera.h */,
+				9382F4521807124200291775 /* FGLKCamera.m */,
+				9382F4551807124200291775 /* FGLKFrustum.h */,
+				9382F4561807124200291775 /* FGLKFrustum.m */,
+				9397667B1B225CDE0071F327 /* FGLKTransform.h */,
+				9397667C1B225CDE0071F327 /* FGLKTransform.m */,
+				936E625E185EDDC000AE6B33 /* FGLKMath.h */,
+				936E625F185EDDC000AE6B33 /* FGLKMath.m */,
+				9382F4581807124200291775 /* FGLKObjParser.h */,
+				9382F4591807124200291775 /* FGLKObjParser.m */,
+				9382F45A1807124200291775 /* FGLKParseObject.h */,
+				9382F45B1807124200291775 /* FGLKParseObject.m */,
+				9382F45C1807124200291775 /* FGLKPlane.h */,
+				9382F45D1807124200291775 /* FGLKPlane.m */,
+				9382F45E1807124200291775 /* FGLKPointSource.h */,
+				9382F4651807124200291775 /* FGLKSpline.h */,
+				9382F4661807124200291775 /* FGLKSpline.m */,
+				9382F4671807124200291775 /* FGLKSpline2.h */,
+				9382F4681807124200291775 /* FGLKSpline2.m */,
+				9382F4691807124200291775 /* FGLKSpline3.h */,
+				9382F46A1807124200291775 /* FGLKSpline3.m */,
+			);
+			name = noarch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9382F47C1807127600291775 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9382F47D1807128000291775 /* FGLKit.h in Headers */,
+				939766811B23B2C00071F327 /* FGLKBounce.h in Headers */,
+				9382F47E1807129A00291775 /* FGLKCamera.h in Headers */,
+				9382F47F1807129A00291775 /* FGLKFaceVertices.h in Headers */,
+				9382F4801807129A00291775 /* FGLKFrustum.h in Headers */,
+				936E6260185EDDC000AE6B33 /* FGLKMath.h in Headers */,
+				9382F4821807129A00291775 /* FGLKObjParser.h in Headers */,
+				9382F4831807129A00291775 /* FGLKParseObject.h in Headers */,
+				9397667D1B225CDE0071F327 /* FGLKTransform.h in Headers */,
+				9382F4841807129A00291775 /* FGLKPlane.h in Headers */,
+				9382F4851807129A00291775 /* FGLKPointSource.h in Headers */,
+				9382F4861807129A00291775 /* FGLKPrim.h in Headers */,
+				9343552F1986F13E00043934 /* FGLKPrim_Protected.h in Headers */,
+				9382F4871807129A00291775 /* FGLKPrimContainer.h in Headers */,
+				9343553F19904A7900043934 /* FGLKScreenSpaceEnabledPrim.h in Headers */,
+				9382F4881807129A00291775 /* FGLKProgram.h in Headers */,
+				9382F4891807129A00291775 /* FGLKSpline.h in Headers */,
+				9382F48A1807129A00291775 /* FGLKSpline2.h in Headers */,
+				9382F48B1807129A00291775 /* FGLKSpline3.h in Headers */,
+				9382F48C1807129A00291775 /* FGLKTypes.h in Headers */,
+				9382F48D1807129A00291775 /* FGLKVertexAttribArrayBuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9382F4261807100800291775 /* FGLKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9382F44A1807100800291775 /* Build configuration list for PBXNativeTarget "FGLKit" */;
+			buildPhases = (
+				9382F4231807100800291775 /* Sources */,
+				9382F4241807100800291775 /* Frameworks */,
+				9382F4251807100800291775 /* Copy Files */,
+				9382F47C1807127600291775 /* Headers */,
+				9382F48E18071ABD00291775 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGLKit;
+			productName = FGLKit;
+			productReference = 9382F4271807100800291775 /* libFGLKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9382F4361807100800291775 /* FGLKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9382F44D1807100800291775 /* Build configuration list for PBXNativeTarget "FGLKitTests" */;
+			buildPhases = (
+				9382F4331807100800291775 /* Sources */,
+				9382F4341807100800291775 /* Frameworks */,
+				9382F4351807100800291775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9382F43E1807100800291775 /* PBXTargetDependency */,
+			);
+			name = FGLKitTests;
+			productName = FGLKitTests;
+			productReference = 9382F4371807100800291775 /* FGLKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9382F41F1807100800291775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Futomen;
+			};
+			buildConfigurationList = 9382F4221807100800291775 /* Build configuration list for PBXProject "FGLKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9382F41E1807100800291775;
+			productRefGroup = 9382F4281807100800291775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9382F4261807100800291775 /* FGLKit */,
+				9382F4361807100800291775 /* FGLKitTests */,
+				9382F48F180723BE00291775 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9382F4351807100800291775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9382F4451807100800291775 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9382F48E18071ABD00291775 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n";
+		};
+		9382F4951807240700291775 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\necho \"SDK NAME:\" $SDK_NAME\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\nif [[ \"$CONFIGURATION\" = \"Release\" ]]\nthen\n# Just build the framework for the existing lib\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\nelse\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n# Copy the binary to the other architecture folder to have a complete framework in both.\nxcrun cp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\nfi\n\n# Copy the library to a standardized location\nif [[ \"$CONFIGURATION\" = \"Release\" ]]\nthen\n    LIB_DIST_DIR=\"${USER_LIBRARY_DIR}/dist\"\nelse\n    LIB_DIST_DIR=\"${USER_LIBRARY_DIR}/debug\"\nfi\necho \"Checking for directory $LIB_DIST_DIR\"\nif [[ ! -d \"$LIB_DIST_DIR\" ]]\nthen\n    xcrun mkdir ${LIB_DIST_DIR}\nfi\nxcrun cp -r \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}\" \"${LIB_DIST_DIR}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9382F4231807100800291775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9382F46F1807124200291775 /* FGLKCamera.m in Sources */,
+				9382F4771807124200291775 /* FGLKSpline.m in Sources */,
+				9382F4791807124200291775 /* FGLKSpline3.m in Sources */,
+				9382F4711807124200291775 /* FGLKFrustum.m in Sources */,
+				9382F4781807124200291775 /* FGLKSpline2.m in Sources */,
+				9382F4741807124200291775 /* FGLKPlane.m in Sources */,
+				9382F4721807124200291775 /* FGLKObjParser.m in Sources */,
+				936E6261185EDDC000AE6B33 /* FGLKMath.m in Sources */,
+				9382F4761807124200291775 /* FGLKProgram.m in Sources */,
+				9397667E1B225CDE0071F327 /* FGLKTransform.m in Sources */,
+				9343554019904A7900043934 /* FGLKScreenSpaceEnabledPrim.m in Sources */,
+				9382F4731807124200291775 /* FGLKParseObject.m in Sources */,
+				9382F47B1807124200291775 /* FGLKVertexAttribArrayBuffer.m in Sources */,
+				939766821B23B2C00071F327 /* FGLKBounce.m in Sources */,
+				9382F4751807124200291775 /* FGLKPrim.m in Sources */,
+				9382F4701807124200291775 /* FGLKFaceVertices.m in Sources */,
+				9382F47A1807124200291775 /* FGLKTypes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9382F4331807100800291775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939766B51B274A450071F327 /* FGLKitMathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9382F43E1807100800291775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9382F4261807100800291775 /* FGLKit */;
+			targetProxy = 9382F43D1807100800291775 /* PBXContainerItemProxy */;
+		};
+		9382F494180723CA00291775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9382F4261807100800291775 /* FGLKit */;
+			targetProxy = 9382F493180723CA00291775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9382F4431807100800291775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9382F4441807100800291775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9382F4481807100800291775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9382F4491807100800291775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9382F44B1807100800291775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/FGLKit.dst;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FGLKit/FGLKit-Prefix.pch";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)/Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		9382F44C1807100800291775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/FGLKit.dst;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/dist",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FGLKit/FGLKit-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)/Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		9382F44E1807100800291775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FGLKit/FGLKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FGLKitTests/FGLKitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.futomen.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9382F44F1807100800291775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FGLKit/FGLKit-Prefix.pch";
+				INFOPLIST_FILE = "FGLKitTests/FGLKitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.futomen.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		9382F491180723BE00291775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9382F492180723BE00291775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9382F4221807100800291775 /* Build configuration list for PBXProject "FGLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382F4481807100800291775 /* Debug */,
+				9382F4491807100800291775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9382F44A1807100800291775 /* Build configuration list for PBXNativeTarget "FGLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382F44B1807100800291775 /* Debug */,
+				9382F44C1807100800291775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9382F44D1807100800291775 /* Build configuration list for PBXNativeTarget "FGLKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382F44E1807100800291775 /* Debug */,
+				9382F44F1807100800291775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9382F490180723BE00291775 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382F491180723BE00291775 /* Debug */,
+				9382F492180723BE00291775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9382F41F1807100800291775 /* Project object */;
+}
